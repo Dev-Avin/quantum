@@ -46,8 +46,9 @@
    .herobackground{
     position: absolute;
     z-index: 1;
-    width: 100%;
+    width: 100vw;
     margin: 0%;
+    overflow: hidden;
     height: 100%;
     object-fit: cover;
 }
