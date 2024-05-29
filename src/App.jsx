@@ -8,12 +8,14 @@ import Mountain from "./components/Mountain"
 import NavBar from "./components/NavBar"
 import Part2 from "./components/Part2"
 import Recover from "./components/Recover"
+import './app.css'
 
 function App() {
 
 
   return (
     <>
+     <div className="about">
      <NavBar/>
      <Hero/>
      <Cont1/>
@@ -24,6 +26,7 @@ function App() {
      <Mountain/>
      <Closing/>
      <Footer/>
+     </div>
     </>
   )
 }
