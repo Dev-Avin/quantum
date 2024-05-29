@@ -15,7 +15,7 @@
     gap: 10px;
     height: 130%;
     display: flex;
-    z-index: 5;
+    z-index: 50;
     font-size: 2rem;
     color: white;
     flex-direction: column;
@@ -62,8 +62,31 @@
 }
 .herobackground img{
     width: 100%;
+    z-index: -1;
     height: 100%;
     object-fit: cover;
+}
+ .container1 , .container2{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    margin: 0%;
+    height: 100vh;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+.container1{
+    left: 0vw;
+}
+.container2{
+    right: 0vw;
+}
+.visibletop{
+    left: 0vw;
+}
+.visiblebottom{
+    right: -50vw;
 }
 @media screen and (max-width: 768px) {  
     .hero{

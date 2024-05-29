@@ -41,6 +41,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .bigbend button , .center button{
+    border: none;
     margin-left: 30px;
     font-size: 1.5rem;
     color: white;
@@ -55,7 +56,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.5s ease;
 }
-.bigbend button:hover{
+.bigbend button:hover , .center button:hover{
     cursor: pointer;
     background-color: rgba(240, 248, 255 , 0.5);    
     backdrop-filter:  blur(20px);
@@ -83,13 +84,27 @@
     object-fit: cover;
 }
 @media screen and (max-width: 768px) {  
-    .bigbend , .center{
+    .bigbend {
         justify-content: start;
         align-items: start;
+    }
+    .center{
+        justify-content: space-evenly;
     }
     .bigbend h1 , .center h1{
         margin-top: 40px;
     }
+    .center h1{
+        margin-top: 0px;
+        width: 80%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .center .ctr{
+        margin: 40px;
+        width: 100px;
+    }
+
     .bigbend button , .center button{
         background-color: rgba(240, 248, 255 , 0.5);   
         font-weight: 500;
