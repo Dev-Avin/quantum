@@ -1,6 +1,7 @@
 import React from 'react'
 import './hero.css'
 import fb from '../assets/fb.jpeg'
+import android from '../assets/Android.png'
 const Hero = () => {
   return (
    <>
@@ -17,6 +18,11 @@ const Hero = () => {
         {/* Insert the design here  */}
         <img src={fb} alt='hero' />
       </div>
+      <div className='herobackgroundMobile'>
+        {/* Insert the design here  */}
+        <img src={android} alt='hero' />
+      </div>
+      
     </div>
    </>
   )
