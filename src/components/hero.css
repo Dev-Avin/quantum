@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 100svh;
     /* margin-bottom: 100vh; */
     overflow: hidden;
    }
@@ -96,10 +96,10 @@
     }
     .heroContent{
         align-self: start;
+        position: absolute;
         justify-content: flex-start;
-        /* margin-top: -100px; */
+        margin-top: 100px;
         width: 60%;
-        margin-top: 0px;
     }
     .heroText{
         width: 100%;

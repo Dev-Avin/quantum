@@ -32,7 +32,8 @@ const NavBar = () => {
 
 
   return (
-    <div className={`navbar ${scrolled ? 'scrolled' : ''}`}>
+    <div className='navCont'>
+        <div className={`navbar ${scrolled ? 'scrolled' : ''}`}>
     <div className='cont'>
     <div className='logo'>
         <img src={logo} alt='logo' />
@@ -46,6 +47,7 @@ const NavBar = () => {
                 <div className="navBarLinks"></div>
                 </div>
           
+    </div>
     </div>
     </div>
   )
