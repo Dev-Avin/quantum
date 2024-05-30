@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    /* width: 95vw; */
+    width: 100vw;
     height: 100vh;
     text-transform: capitalize;
     overflow: hidden;
